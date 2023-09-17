@@ -1,0 +1,18 @@
+{
+    "window.zoomLevel": 2,
+    "[markdown]": {
+        "editor.unicodeHighlight.ambiguousCharacters": false,
+        "editor.unicodeHighlight.invisibleCharacters": false,
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        }
+    },
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Default Dark+",
+    "terminal.external.linuxExec": "kitty"
+}
