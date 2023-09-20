@@ -9,6 +9,5 @@ run() {
 
 run autorandr -c
 run nm-applet
-run cbatticon
 run pasystray -g
 run polkit-dumb-agent

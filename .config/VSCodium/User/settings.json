@@ -14,5 +14,6 @@
     "editor.minimap.enabled": false,
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "Default Dark+",
-    "terminal.external.linuxExec": "kitty"
+    "terminal.external.linuxExec": "kitty",
+    "workbench.editor.showTabs": false
 }
