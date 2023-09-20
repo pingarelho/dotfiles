@@ -259,6 +259,8 @@ awful.screen.connect_for_each_screen(
         }),
         batteryarc_widget({
           show_current_level = true,
+          show_notification_mode = "off",
+          enable_battery_warning = false,
           font = "Hack 8",
           arc_thickness = 1.4,
           size = 20
