@@ -3,9 +3,7 @@
 run() {
   if ! pgrep -f "$1" ;
   then
-    "$@"&        wibox.widget.systray({
-          set_reverse = true
-        }),
+    "$@"&
   fi
 }
 

@@ -1,5 +1,4 @@
 {
-    "window.zoomLevel": 2,
     "[markdown]": {
         "editor.unicodeHighlight.ambiguousCharacters": false,
         "editor.unicodeHighlight.invisibleCharacters": false,
@@ -15,5 +14,6 @@
     "workbench.activityBar.visible": false,
     "terminal.external.linuxExec": "kitty",
     "workbench.editor.showTabs": false,
-    "editor.fontFamily": "'Hack', 'monospace', monospace"
+    "editor.fontFamily": "'Hack', 'monospace', monospace",
+    "window.zoomLevel": 1
 }
