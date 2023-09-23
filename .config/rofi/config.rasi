@@ -2,8 +2,9 @@
 
 configuration {
     disable-history: false;
-    font: "Hack 12";
+    font: "Hack 13";
     show-icons: true;
     icon-theme: "Papirus";
     auto-select: true;
+    drun-display-format: "{name}";
 }
