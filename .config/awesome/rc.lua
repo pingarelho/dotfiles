@@ -399,7 +399,7 @@ globalkeys =
         { modkey },
         "d",
         function()
-          awful.util.spawn("rofi -show drun -disable-history")
+          awful.util.spawn("rofi -show drun")
         end,
         { description = "show rofi", group = "launcher" }
       )

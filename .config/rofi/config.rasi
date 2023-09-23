@@ -1,1 +1,9 @@
 @theme "/usr/share/rofi/themes/glue_pro_blue.rasi"
+
+configuration {
+    disable-history: false;
+    font: "Hack 12";
+    show-icons: true;
+    icon-theme: "Papirus";
+    auto-select: true;
+}
