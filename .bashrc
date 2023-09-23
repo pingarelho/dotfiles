@@ -8,6 +8,7 @@
 alias grep='grep --color=auto'
 alias vim='nvim'
 alias ls='lsd'
+alias cat='bat'
 alias config='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 PS1='\[\e[38;5;208m\]\u\[\e[38;5;252m\]@\[\e[38;5;196m\]\H \[\e[38;5;220m\]\w \[\e[38;5;105m\]\$ \[\e[0m\]'
