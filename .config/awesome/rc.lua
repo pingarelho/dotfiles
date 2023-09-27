@@ -336,7 +336,7 @@ globalkeys =
         "XF86MonBrightnessDown",
         function()
           awful.spawn.with_shell(
-            "echo $(( $(cat /sys/class/backlight/amdgpu_bl1/brightness) - 10 )) > /sys/class/backlight/amdgpu_bl1/brightness")
+            "echo $(( $(cat /sys/class/backlight/amdgpu_bl2/brightness) - 10 )) > /sys/class/backlight/amdgpu_bl2/brightness")
         end,
         { description = "decrease screen brightness", group = "launcher" }
       ),
@@ -345,7 +345,7 @@ globalkeys =
         "XF86MonBrightnessUp",
         function()
           awful.spawn.with_shell(
-            "echo $(( $(cat /sys/class/backlight/amdgpu_bl1/brightness) + 10 )) > /sys/class/backlight/amdgpu_bl1/brightness")
+            "echo $(( $(cat /sys/class/backlight/amdgpu_bl2/brightness) + 10 )) > /sys/class/backlight/amdgpu_bl2/brightness")
         end,
         { description = "increase screen brightness", group = "launcher" }
       ),
