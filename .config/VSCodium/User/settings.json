@@ -15,5 +15,5 @@
     "terminal.external.linuxExec": "kitty",
     "workbench.editor.showTabs": false,
     "editor.fontFamily": "'Hack', 'monospace', monospace",
-    "window.zoomLevel": 1
+    "window.zoomLevel": 2
 }
