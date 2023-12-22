@@ -1,7 +1,0 @@
-// Place your key bindings in this file to override the defaultsauto[]
-[
-    {
-        "key": "shift+alt+p",
-        "command": "workbench.profiles.actions.switchProfile"
-    }
-]
