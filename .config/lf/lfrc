@@ -1,1 +1,13 @@
 set icons
+
+cmd mkdir %mkdir "$@"
+
+cmd touch %touch "$@"
+
+cmd delete %trash-put $fx
+
+cmd extract ${{
+    set -f
+    atool -x $f
+}}
+map x extract
