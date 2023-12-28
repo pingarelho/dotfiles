@@ -343,9 +343,9 @@ globalkeys =
         { modkey },
         "w",
         function()
-          awful.spawn("kitty lf")
+          awful.spawn("thunar")
         end,
-        { description = "open lf", group = "launcher" }
+        { description = "open thunar", group = "launcher" }
       ),
       awful.key(
         { modkey },
@@ -353,7 +353,7 @@ globalkeys =
         function()
           awful.spawn("kitty --class ncspot ncspot")
         end,
-        { description = "open lf", group = "launcher" }
+        { description = "open ncspot", group = "launcher" }
       ),
       awful.key(
         {},
