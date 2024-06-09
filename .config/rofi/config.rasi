@@ -2,7 +2,7 @@
 
 configuration {
     disable-history: false;
-    font: "Hack 13";
+    font: "Hack Nerd Font Regular 13";
     show-icons: true;
     icon-theme: "Papirus";
     auto-select: true;

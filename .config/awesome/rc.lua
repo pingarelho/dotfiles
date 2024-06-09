@@ -261,7 +261,7 @@ awful.screen.connect_for_each_screen(
           show_current_level = true,
           show_notification_mode = "off",
           enable_battery_warning = false,
-          font = "Hack 8",
+          font = "Hack Nerd Font Regular 8",
           arc_thickness = 1.4,
           size = 20
         }),
@@ -271,10 +271,6 @@ awful.screen.connect_for_each_screen(
     }
   end
 )
--- }}}
-
--- {{{ Mouse bindings
-root.buttons(gears.table.join(awful.button({}, 4, awful.tag.viewnext), awful.button({}, 5, awful.tag.viewprev)))
 -- }}}
 
 -- {{{ Key bindings
